@@ -2,7 +2,7 @@
 require_once('../koneksi/koneksi.php');
 
 if (!isset($_SESSION['username'])) {
-    echo "<script>window.location='" . base_url('auth/login') . "'</script>";
+    echo "<script>window.location='" . base_url('auth/login.php') . "'</script>";
 }
 ?>
 

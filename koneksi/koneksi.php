@@ -9,7 +9,7 @@ $conn = mysqli_connect("localhost", "root", "", "students") or die('MySQL Connec
 //fungsi base url
 function base_url($path = '')
 {
-    $base_url = 'http://localhost/crud_lsp/';
+    $base_url = 'http://localhost/LSP/';
 
     if (!empty($path)) {
         $base_url .= $path;
